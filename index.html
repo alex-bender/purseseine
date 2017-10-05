@@ -1,59 +1,67 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <title>Purse seine</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.3/css/bulma.min.css">
-</head>
-<body class="container">
-      <section class="hero is-light">
-          <div class="hero-body" style="border: 1px solid #ffdd57;">
-            <div class="container">
-              <h1 class="title has-text-centered">
-                Purse seine
-              </h1>
-              <h2 class="subtitle has-text-centered">
-                There are no others, there is only us
-              </h2>
-            </div>
-          </div>
-        </section>
+    <head>
+        <meta charset="utf-8">
+        <title>Purse seine</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.3/css/bulma.min.css">
+        <script src="https://unpkg.com/vue@2.4.4/dist/vue.js"></script>
+    </head>
+    <body class="container">
+        <div id="main">
+            <section class="hero is-light">
+                <div class="hero-body" style="border: 1px solid #ffdd57;">
+                <div class="container">
+                    <h1 class="title has-text-centered">
+                      Purse seine
+                    </h1>
+                    <h2 class="subtitle has-text-centered">
+                      There are no others, there is only us
+                    </h2>
+                  </div>
+                </div>
+            </section>
 
-        <section class="section">
-          <div class="container">
-            <h1 class="title">Song list</h1>
-            <h2 class="subtitle">
-                Last updated at: <strong>                    
-                    <time class="has-text-grey" datetime="Wed Oct 04 17:57">Wed Oct 04</time>
-                </strong>
-            </h2>
-          </div>
-        </section>
+            <section class="section">
+                <div class="container">
+                    <h1 class="title">Song list</h1>
+                    <h2 class="subtitle">
+                      Last updated at: <strong>
+                          <time class="has-text-grey" datetime="Wed Oct 04 17:57">Wed Oct 04</time>
+                      </strong>
+                    </h2>
+                </div>
+            </section>
 
-        <section class="section">
-            <div class="content">
-                <p>
-                  <a href="https://youtu.be/y7w4TxyHj_U">Sivert Høyem - Görlitzer Park (live at Acropolis)</a> - <time class="has-text-grey" datetime="2017-09-28 19:00">Thu Sep 28</time>
-                </p>
-                <p>
-                  <a href="https://youtu.be/gkCLBJEUF5Q">Sivert Høyem - Give It A Whirl [2011]</a> - <time class="has-text-grey" datetime="2017-09-29 17:25">Fri Sep 29</time>
-                </p>
-                <p>
-                  <a href="https://brasstronaut.bandcamp.com/track/insects">Brasstronaut - Insects</a> - <time class="has-text-grey" datetime="2017-09-30 15:18">Sat Sep 30</time>
-                </p>
-                <p>
-                  <a href="https://youtu.be/8N5KsXi5kVE">Archive - Kings Of Speed</a> - <time class="has-text-grey" datetime="2017-10-01 22:11">Sun Oct 01</time>
-                </p>
-                <p>
-                  <a href="https://youtu.be/lkemuRNF8m0">The Secret Love Parade - The Victorians are Here</a> - <time class="has-text-grey" datetime="2017-10-02 18:59">Mon Oct 02</time>
-                </p>
-                <p>
-                  <a href="https://matt-holubowski.bandcamp.com/track/the-weatherman-or-the-felonies-are-magnets-on-my-coat">Matt Holubowski - The Weatherman</a> - <time class="has-text-grey" datetime="2017-10-03 18:41">Tue Oct 03</time>
-                </p>
-                <p>
-                  <a href="https://vimeo.com/6293927">Brasstronaut - Old World Lies</a> - <time class="has-text-grey" datetime="Wed Oct 04 17:57">Wed Oct 04</time>
-                </p>
-            </div>
-      </section>
-</body>
+            <section class="section">
+                <div class="content">
+                    <p>
+                      <a href="https://youtu.be/y7w4TxyHj_U">Sivert Høyem - Görlitzer Park (live at Acropolis)</a> - <time class="has-text-grey" datetime="2017-09-28 19:00">Thu Sep 28</time>
+                    </p>
+                    <p>
+                      <a href="https://youtu.be/gkCLBJEUF5Q">Sivert Høyem - Give It A Whirl [2011]</a> - <time class="has-text-grey" datetime="2017-09-29 17:25">Fri Sep 29</time>
+                    </p>
+                    <p>
+                      <a href="https://brasstronaut.bandcamp.com/track/insects">Brasstronaut - Insects</a> - <time class="has-text-grey" datetime="2017-09-30 15:18">Sat Sep 30</time>
+                    </p>
+                    <p>
+                      <a href="https://youtu.be/8N5KsXi5kVE">Archive - Kings Of Speed</a> - <time class="has-text-grey" datetime="2017-10-01 22:11">Sun Oct 01</time>
+                    </p>
+                    <p>
+                      <a href="https://youtu.be/lkemuRNF8m0">The Secret Love Parade - The Victorians are Here</a> - <time class="has-text-grey" datetime="2017-10-02 18:59">Mon Oct 02</time>
+                    </p>
+                    <p>
+                      <a href="https://matt-holubowski.bandcamp.com/track/the-weatherman-or-the-felonies-are-magnets-on-my-coat">Matt Holubowski - The Weatherman</a> - <time class="has-text-grey" datetime="2017-10-03 18:41">Tue Oct 03</time>
+                    </p>
+                    <p>
+                      <a href="https://vimeo.com/6293927">Brasstronaut - Old World Lies</a> - <time class="has-text-grey" datetime="Wed Oct 04 17:57">Wed Oct 04</time>
+                    </p>
+                </div>
+            </section>
+        </div>
+        <script>
+            var vm = new Vue({
+              el: '#main'
+            })
+        </script>
+    </body>
 </html>
