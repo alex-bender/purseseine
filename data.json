@@ -1,5 +1,5 @@
 {
-    "version": "RnJpIE9jdCAwNg==",
+    "version": "VHVlIE9jdCAxMA==",
     "songs": [
         {"id": 1, "name": "görlitzer park (live at acropolis)", "band": "sivert høyem", "url": "https://youtu.be/y7w4TxyHj_U", "op": "", "created_at": "2017-09-28 19:00"},
         {"id": 2, "name": "give it a whirl", "band": "sivert høyem", "url": "https://youtu.be/gkCLBJEUF5Q", "op": "", "created_at": "2017-09-29 17:25"},
@@ -10,6 +10,7 @@
         {"id": 7, "name": "old world lies", "band": "brasstronaut", "url": "https://vimeo.com/6293927", "op": "", "created_at": "2017-10-04 17:36"},
         {"id": 8, "name": "sugar man", "band": "Rodriguez", "url": "https://youtu.be/qyE9vFGKogs", "op": "", "created_at": "2017-10-05 17:36"},
         {"id": 9, "name": "our plans", "band": "Cloud Nothings", "url": "https://youtu.be/w3iattTPB5A", "op": "", "created_at": "2017-10-06 18:55"},
-        {"id": 10, "name": "flavorful noodles", "band": "the double jump", "url": "https://thedoublejump.bandcamp.com/track/flavorful-noodles", "op": "", "created_at": "2017-10-08 21:42"}
+        {"id": 10, "name": "flavorful noodles", "band": "the double jump", "url": "https://thedoublejump.bandcamp.com/track/flavorful-noodles", "op": "", "created_at": "2017-10-08 21:42"},
+        {"id": 11, "name": "waste", "band": "archive", "url": "https://youtu.be/tVbKrEcfFtM", "op": "", "created_at": "2017-10-10 18:26"}
     ]
 }
