@@ -56,6 +56,7 @@
                             self.songs = response.data['songs'];
                         })
                         .catch(function (error) {
+                            alert(error);
                             console.log(error);
                         });
                     },
