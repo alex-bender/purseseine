@@ -4,7 +4,6 @@
         <meta charset="utf-8">
         <title>Purse seine</title>
         <link rel="stylesheet" href="/static/css/bulma.min.css?v=0.5.3">
-        <script src="/static/js/axios.min.js" async></script>
         <script src="/static/js/vue.min.js" ></script>
     </head>
     <body class="container">
@@ -36,7 +35,7 @@
             <section class="section">
                 <div class="content" v-for="song in songs">
                     <p :data-id="song.id">
-                        <a :href="song.url">{{song.band | titelize }} - {{song.name | titelize}}</a>
+                        <a :href="song.url">{{song.band | titelize}} - {{song.name | titelize}}</a>
                         <time class="has-text-grey" :datetime="song.created_at">{{ song.created_at | formatDate }}</time>
                     </p>
                 </div>
@@ -44,41 +43,43 @@
         </div>
         <script>
             document.addEventListener("DOMContentLoaded", function(event) {
-                var vm = new Vue({
-                    el: '#main',
-                    data: {
-                        songs: []
-                    },
-                    mounted: function () {
-                      self = this;
-                      axios.get('/data.json')
-                        .then(function (response) {
-                            self.songs = response.data['songs'];
-                        })
-                        .catch(function (error) {
-                            alert(error);
-                            console.log(error);
-                        });
-                    },
-                    computed: {
-                      printDate: function () {
-                        console.log(this);
-                        return this.message.split('').reverse().join('')
-                      }
-                    },
-                    filters: {
-                      formatDate: function(value) {
-                        if (!value) return ''
-                        return new Date(value).toString().split(' ').slice(0,3).join(' ');
-                      },
-                      titelize: function(value) {
-                        if (!value) return ''
-                          return value.toString().split(' ').map(function(x){
-                              return x[0].toUpperCase()+x.slice(1);
-                          }).join(' ');
-                      }
+
+              var vm = new Vue({
+                el: '#main',
+                data: {
+                  songs: []
+                },
+                mounted: function () {
+                  self = this;
+                  var request = new Request('/data.json');
+                  fetch(request).then(
+                    (response) => {
+                      return response.json();
                     }
-                })
+                  )
+                  .then((data) => {
+                    self.songs = data['songs'];
+                  })
+                },
+                computed: {
+                  printDate: function () {
+                    console.log(this);
+                    return this.message.split('').reverse().join('')
+                  }
+                },
+                filters: {
+                  formatDate: function(value) {
+                    if (!value) return ''
+                    return new Date(value).toString().split(' ').slice(0,3).join(' ');
+                  },
+                  titelize: function(value) {
+                    if (!value) return ''
+                      return value.toString().split(' ').map(function(x){
+                          return x[0].toUpperCase()+x.slice(1);
+                      }).join(' ');
+                  }
+                }
+              })
             });
         </script>
     </body>
