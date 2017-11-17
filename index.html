@@ -35,7 +35,7 @@
             <section class="section">
                 <div class="content" v-for="song in songs">
                     <p :data-id="song.id">
-                        <a :href="song.url">{{song.band | titelize}} - {{song.name | titelize}}</a>
+                        <a target="_blank" :href="song.url">{{song.band | titelize}} - {{song.name | titelize}}</a>
                         <time class="has-text-grey" :datetime="song.created_at">{{ song.created_at | formatDate }}</time>
                     </p>
                 </div>
