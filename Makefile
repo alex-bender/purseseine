@@ -1,3 +1,7 @@
-all:
-	date +"%Y-%m-%d %H:%m\">%a %b %d"
-	date +"%a %b %d" | base64
+all: h j
+h:
+	@date +'<time class="has-text-grey" datetime="%Y-%m-%d %H:%m">%a %b %d</time>'
+j:
+	@date +"%a %b %d" | base64
+p:
+	git push origin master
