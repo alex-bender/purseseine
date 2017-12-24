@@ -1,5 +1,5 @@
 {
-    "version": "U2F0IERlYyAwOQo=",
+    "version": "Sun Dec 24",
     "songs": [
         {"id": 1, "name": "görlitzer park (live at acropolis)", "band": "sivert høyem", "url": "https://youtu.be/y7w4TxyHj_U", "op": "", "created_at": "2017-09-28 19:00"},
         {"id": 2, "name": "give it a whirl", "band": "sivert høyem", "url": "https://youtu.be/gkCLBJEUF5Q", "op": "", "created_at": "2017-09-29 17:25"},
@@ -22,6 +22,8 @@
         {"id": 19, "name": "NYC ghosts & flowers", "band": "sonic youth", "tags": ["noisy"], "url": "https://youtu.be/c8vfj1zWkwY", "op": "", "created_at": "2017-11-16 12:07"},
         {"id": 20, "name": "a heartbreak", "band": "angus & julia stone", "tags": ["soft"], "url": "https://youtu.be/nV50lmpVk1E", "op": "", "created_at": "2017-11-27 19:54"},
         {"id": 21, "name": "a storm coming", "band": "Bradley Hathaway", "tags": [""], "url": "https://youtu.be/a4Kmtlp7wK4", "op": "", "created_at": "2017-11-30 14:54"},
-        {"id": 22, "name": "silence", "band": "lucia", "tags": [""], "url": "https://youtu.be/UAm_uoV1z5k", "op": "", "created_at": "2017-12-09 17:10"}
+        {"id": 22, "name": "silence", "band": "lucia", "tags": [""], "url": "https://youtu.be/UAm_uoV1z5k", "op": "", "created_at": "2017-12-09 17:10"},
+        {"id": 23, "name": "live with me", "band": "massive attack", "tags": [""], "url": "https://youtu.be/AIIovpUQiro", "op": "", "created_at": "2017-12-24 20:55"},
+        {"id": 24, "name": "Zero to eleven", "band": "julian taylor band", "tags": [""], "url": "https://youtu.be/7iGvViAtkFs", "op": "", "created_at": "2017-12-24 20:56"}
     ]
 }
