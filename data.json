@@ -1,5 +1,5 @@
 {
-    "version": "Mon Jan 15",
+    "version": "Tue Jan 16",
     "songs": [
         {"id": 1, "name": "görlitzer park (live at acropolis)", "band": "sivert høyem", "url": "https://youtu.be/y7w4TxyHj_U", "op": "", "created_at": "2017-09-28 19:00"},
         {"id": 2, "name": "give it a whirl", "band": "sivert høyem", "url": "https://youtu.be/gkCLBJEUF5Q", "op": "", "created_at": "2017-09-29 17:25"},
@@ -26,6 +26,8 @@
         {"id": 23, "name": "live with me", "band": "massive attack", "tags": [""], "url": "https://youtu.be/AIIovpUQiro", "op": "", "created_at": "2017-12-24 20:55"},
         {"id": 24, "name": "zero to eleven", "band": "julian taylor band", "tags": [""], "url": "https://youtu.be/7iGvViAtkFs", "op": "", "created_at": "2017-12-24 20:56"},
         {"id": 25, "name": "nevermine", "band": "caroline lazar", "tags": [""], "url": "https://carolinelazar.bandcamp.com/track/nevermine-2", "op": "", "created_at": "2018-01-05 16:28"},
-        {"id": 26, "name": "cross on the highway", "band": "cranston dean", "tags": [""], "url": "https://youtu.be/006Y-l1KGdE", "op": "", "created_at": "2018-01-15 15:16"}
+        {"id": 26, "name": "cross on the highway", "band": "cranston dean", "tags": [""], "url": "https://youtu.be/006Y-l1KGdE", "op": "", "created_at": "2018-01-15 15:16"},
+        {"id": 27, "name": "mayday", "band": "unkle & the duke spirit", "tags": [""], "url": "https://youtu.be/vG-ICMY-Yqs", "op": "", "created_at": "2018-01-16 19:16"}
+        
     ]
 }
